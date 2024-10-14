@@ -3,31 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzeria en ligne</title>
+    <title>Pizzeria Italienne - Accueil</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>Prout Pizza</h1>
+        <div class="container">
+            <div class="logo">
+                <h1>Prout Pizza</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="cta">
+                    <a href="menu.html" class="btn-order">Commander maintenant</a>
+                </div>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
     <section class="hero">
-        <h2>Bienvenue chez La Pizzeria Italienne</h2>
-        <p>La meilleure pizza artisanale livrée chez vous en un clic !</p>
-        <a href="menu.html" class="btn">Voir le menu</a>
+        <div class="container">
+            <h2>Découvrez les meilleures pizzas artisanales</h2>
+            <p>Commandez en ligne et profitez d'une livraison rapide chez vous !</p>
+            <a href="menu.html" class="btn">Voir le Menu</a>
+        </div>
+        <div class="overlay"></div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h3>Pourquoi choisir La Pizzeria Italienne ?</h3>
+            <div class="feature-cards">
+                <div class="card">
+                    <img src="img/fresh-ingredients.jpg" alt="Ingrédients frais">
+                    <h4>Ingrédients frais</h4>
+                    <p>Nos pizzas sont préparées avec des produits de qualité directement sélectionnés chez nos producteurs locaux.</p>
+                </div>
+                <div class="card">
+                    <img src="img/fast-delivery.jpg" alt="Livraison rapide">
+                    <h4>Livraison rapide</h4>
+                    <p>Profitez de nos services de livraison express, pour déguster nos pizzas en moins de 30 minutes.</p>
+                </div>
+                <div class="card">
+                    <img src="img/italian-pizza.jpg" alt="Recettes italiennes">
+                    <h4>Recettes italiennes</h4>
+                    <p>Authentiques recettes italiennes pour une expérience gustative unique et inoubliable.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 La Pizzeria Italienne - Tous droits réservés</p>
+        <div class="container">
+            <p>&copy; 2024 La Pizzeria Italienne - Tous droits réservés</p>
+            <p>Suivez-nous sur 
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+            </p>
+        </div>
     </footer>
 </body>
 </html>
