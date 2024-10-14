@@ -1,1 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #d35400;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #e67e22;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero .btn {
+    background-color: #fff;
+    color: #e67e22;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #ddd;
+}
+
+section.menu {
+    padding: 50px;
+    text-align: center;
+}
+
+section.menu h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+section.menu ul li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section.menu ul li h3 {
+    font-size: 1.5em;
+}
+
+section.menu ul li p {
+    margin: 10px 0;
+}
+
+section.menu ul li span {
+    font-weight: bold;
+    color: #e67e22;
+}
+
+section.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+section.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section.contact form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+section.contact form input, 
+section.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section.contact form button {
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+section.contact form button:hover {
+    background-color: #d35400;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
