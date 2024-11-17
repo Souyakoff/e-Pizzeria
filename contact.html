@@ -1,44 +1,56 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - La Pizzeria Italienne</title>
+    <title>Contact - The Italian Pizzeria</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <h1>La Pizzeria Italienne</h1>
+            <h1><a href="index.html" aria-label="The Italian Pizzeria Home">The Italian Pizzeria</a></h1>
         </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
+            <ul class="nav-links" aria-label="Main Navigation">
+                <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="contact">
-        <h2>Nous contacter</h2>
-        <form action="#" method="post">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or feedback, feel free to reach out to us. We'd love to hear from you!</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
 
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required>
 
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" required></textarea>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject of your message" required>
 
-            <button type="submit">Envoyer</button>
-        </form>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 La Pizzeria Italienne - Tous droits réservés</p>
+        <div class="container">
+            <p>&copy; 2024 The Italian Pizzeria - All Rights Reserved</p>
+            <p>Follow us on 
+                <a href="#" aria-label="Visit our Facebook page">Facebook</a> | 
+                <a href="#" aria-label="Visit our Instagram page">Instagram</a> | 
+                <a href="#" aria-label="Visit our Twitter page">Twitter</a>
+            </p>
+        </div>
     </footer>
 </body>
 </html>
-
